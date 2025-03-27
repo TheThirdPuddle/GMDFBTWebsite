@@ -171,26 +171,7 @@ hr {
     border-bottom: 1px solid #ccc;
 }
 
-.download-btn {
-    display: inline-block;
-    font: 'Segoe UI';
-    padding: 15px 30px;
-    background-color: #00a2e8;
-    color: white;
-    font-size: 1.2em;
-    border-radius: 5px;
-    text-decoration: none;
-    transform: scale(1);
-    margin-top: 50px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
 
-.download-btn:hover {
-    font: 'Segoe UI' ;
-    background-color: #72c5e9;
-    transform: scale(1.05);
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
 
 .file-info {
     margin-top: 20px;
@@ -218,3 +199,88 @@ html {
 }
 
 
+/* From Uiverse.io by Creatlydev */ 
+.DL-Button {
+    line-height: 1;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.75em 1em;
+    padding-right: 1.25em;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 2em;
+    font-size: 1rem;
+    box-shadow: 0 0.7em 1.5em -0.5em hsla(249, 62%, 51%, 0.745);
+    transition: transform 0.3s;
+    width: 10.44rem;
+    text-align: center;
+    padding-left: 1.7rem;
+  
+    background: linear-gradient(
+      90deg,
+      #00a2e8 0%,
+      #00b3ff 100%
+    );
+  }
+  
+  .DL-Button__Icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  .DL-Button:hover {
+    border-color: #f4f5f2;
+  }
+  
+  .DL-Button:active {
+    transform: scale(0.98);
+    box-shadow: 0 0.5em 1.5em -0.5em hsla(249, 62%, 51%, 0.745);
+  }
+
+  a > .DL-Button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  /* From Uiverse.io by Creatlydev */ 
+.btn-github {
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+    border: none;
+  
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 100px;
+    font-weight: 800;
+    place-content: center;
+  
+    padding: 0.75rem 1rem;
+    font-size: 0.825rem;
+    line-height: 1rem;
+  
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow:
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+    color: #fff;
+  }
+  
+  .btn-github:hover {
+    box-shadow:
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+      inset 0 0 0 1px rgba(252, 232, 3, 0.08);
+    color: #fce803;
+    transform: translate(0, -0.25rem);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  a > .btn-github {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
