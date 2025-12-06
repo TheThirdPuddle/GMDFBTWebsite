@@ -1,0 +1,8 @@
+{
+  "name": "gmdfbt-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build needed'",
+    "deploy": "echo 'Deploy complete'"
+  }
+}
