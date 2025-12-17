@@ -1,10 +1,10 @@
 {
-  "name": "gmdfbt-website",
+  "name": "gmdfbtwebsite",
   "version": "1.0.0",
   "scripts": {
-    "dev": "wrangler pages dev .",
-    "build": "wrangler pages build .",
-    "deploy": "wrangler pages deploy ."
+    "dev": "npm run build && wrangler pages dev dist",
+    "build": "node ./scripts/build-pages.js",
+    "deploy": "npm run build && wrangler pages deploy dist"
   },
   "devDependencies": {
     "wrangler": "^3.98.0"
