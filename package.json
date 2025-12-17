@@ -1,5 +1,5 @@
 {
-  "name": "gmdfbt-website",
+  "name": "gmdfbtwebsite",
   "version": "1.0.0",
   "scripts": {
     "dev": "npm run build && wrangler pages dev dist",
