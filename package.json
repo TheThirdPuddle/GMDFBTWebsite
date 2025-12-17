@@ -2,7 +2,11 @@
   "name": "gmdfbt-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'No build needed'",
-    "deploy": "echo 'Deploy complete'"
+    "dev": "wrangler pages dev .",
+    "build": "wrangler pages build .",
+    "deploy": "wrangler pages deploy ."
+  },
+  "devDependencies": {
+    "wrangler": "^3.98.0"
   }
 }
